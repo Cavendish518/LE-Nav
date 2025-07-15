@@ -1,0 +1,16 @@
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+
+# 忽略 Jupyter notebook 的检查点
+.ipynb_checkpoints/
+
+# 忽略 VSCode 配置
+.vscode/
+
+# 忽略临时文件
+*.log
+*.tmp
+
+# 忽略 IDE 配置
+.idea/

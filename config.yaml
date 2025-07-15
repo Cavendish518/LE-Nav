@@ -1,0 +1,47 @@
+param:
+  # basic
+  batch_size: 16
+  epochs: 8000
+  lr: 0.001
+  weight_decay: 0.02
+  seed: 518
+  dataset: "DWA" # planner name
+
+  # Poly LR scheduler config
+  lr_scheduler:
+    type: "poly"
+    power: 0.9
+    min_lr: 1e-6
+
+  # model
+  input_dim: 9
+  cond_dim: 10
+  feed_dim: 32
+  latent_dim: 9    # mu,sigma
+  hidden_dim: 32
+  mask: True
+  loss_aug: True
+
+  # save
+  log_dir: runs/cvae_experiment
+  checkpoint_dir: checkpoints
+  resume: # true
+  device: "cuda:0" # "cuda:2"
+  num_workers: 16
+
+
+
+train:
+  img_dirs:
+    - your_path1
+    - your_path2
+
+val:
+  img_dirs:
+    - your_path3
+
+test:
+  img_dirs:
+    - your_path4
+
+
