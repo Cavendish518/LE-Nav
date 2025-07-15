@@ -1,6 +1,6 @@
 # Learning to Tune Like an Expert: Interpretable and Scene-Aware Navigation via MLLM Reasoning and CVAE-Based Adaptation
 
-This repo is the official project repository of LE-Nav ([\[DEMO\]](https://drive.google.com/file/d/1_XVsA-nbONcEre_OyEVM9BInMulYK7_r/view?usp=sharing)).
+This repo is the official project repository of **LE-Nav** ([\[DEMO\]](https://drive.google.com/file/d/1_XVsA-nbONcEre_OyEVM9BInMulYK7_r/view?usp=sharing)).
 
 <p align="center">
   <img src="/fig/scene1.gif" width="200"/>
