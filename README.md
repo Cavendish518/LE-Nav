@@ -19,7 +19,11 @@ LE-Nav is an interpretable and adaptive navigation framework designed for servic
 ![image](fig/overview.jpg)
 
 ## 2. Environment
-Download and create environment.
+Download the code and create environment.
+```
+conda env create -f environment.yml
+```
+You can also try:
 ```
 conda create --name readscene python=3.9
 conda activate readscene
@@ -31,6 +35,10 @@ conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=
 pip install numpy==1.22.4
 conda install tensorboard
 pip install ultralytics
+```
+or
+```
+pip install -r requirements.txt
 ```
 ## 3. Training
 Collect the data for your planner. Customize your config.yaml.
