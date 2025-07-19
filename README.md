@@ -1,6 +1,6 @@
 # Learning to Tune Like an Expert: Interpretable and Scene-Aware Navigation via MLLM Reasoning and CVAE-Based Adaptation
 
-This repo is the official project repository of **LE-Nav** ([\[DEMO\]](https://drive.google.com/file/d/1_XVsA-nbONcEre_OyEVM9BInMulYK7_r/view?usp=sharing)).
+This repo is the official project repository of [\[**LE-Nav**\]](https://arxiv.org/pdf/2507.11001) ([\[DEMO\]](https://drive.google.com/file/d/1_XVsA-nbONcEre_OyEVM9BInMulYK7_r/view?usp=sharing)).
 
 <p align="center">
   <img src="/fig/scene1.gif" width="200"/>
@@ -50,4 +50,14 @@ Fill in the path, api key in the ROS file.
 ```
 source ~/your_ws/devel/setup.bash
 rosrun your_package path/to/image_infer_node.py
+```
+## 5. Citation
+If your like our projects, please cite us and give this repo a star.
+```
+@article{wang2025learning,
+  title={Learning to Tune Like an Expert: Interpretable and Scene-Aware Navigation via MLLM Reasoning and CVAE-Based Adaptation},
+  author={Wang, Yanbo and Fang, Zipeng and Zhao, Lei and Chen, Weidong},
+  journal={arXiv preprint arXiv:2507.11001},
+  year={2025}
+}
 ```
