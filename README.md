@@ -45,12 +45,17 @@ Collect the data for your planner. Customize your config.yaml.
 ```
 python train_cvae.py
 ```
+In our case, we select the following eight key hyperparameters for TEB: max_vel_x, max_vel_theta, acc_lim_x, acc_lim_theta, weight_max_vel_x, weight_acc_lim_x, weight_acc_lim_theta, weight_optimaltime
+and eight key hyperparameters for DWA: max_vel_x, max_vel_theta, acc_lim_x, acc_lim_theta, path_distance_bias, goal_distance_bias, occdist_scale, forward_point_distance. In the case of DWA, when updating hyperparameter max_vel_x,
+we additionally synchronize the value of max_vel_trans to be consistent with max_vel_x. During the deployment, the inflation_radius of global costmap is also recorded and learned as it is closely related to the local planner.
+
 ## 4. Deployment
 Fill in the path, api key in the ROS file.
 ```
 source ~/your_ws/devel/setup.bash
 rosrun your_package path/to/image_infer_node.py
 ```
+If you use the same setup, you can try the [\[model parameters\]](https://github.com/Cavendish518/LE-Nav/tree/main/weight) we provide.
 ## 5. Citation
 If your like our projects, please cite us and give this repo a star.
 ```
