@@ -50,7 +50,7 @@ and eight key hyperparameters for DWA: max_vel_x, max_vel_theta, acc_lim_x, acc_
 we additionally synchronize the value of max_vel_trans to be consistent with max_vel_x. During the deployment, the inflation_radius of global costmap is also recorded and learned as it is closely related to the local planner.
 
 ## 4. Deployment
-Fill in the path, api key in the ROS file.
+Fill in the path, api key in the ROS file. (Developed with ROS Melodic.)
 ```
 source ~/your_ws/devel/setup.bash
 rosrun your_package path/to/image_infer_node.py
