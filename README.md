@@ -14,7 +14,7 @@ This repo is the official project repository of [\[**LE-Nav**\]](https://arxiv.o
 ## 1. Overview
 ![image](fig/comparison.jpg)
 
-LE-Nav is an interpretable and adaptive navigation framework designed for service robots operating in dynamic, human-centric environments. Traditional navigation systems often struggle in such unstructured settings due to fixed parameters and poor generalization. LE-Nav addresses this by combining multi-modal large language models (MLLMs) with conditional variational autoencoders (CVAEs) for zero-shot scene understanding and expert-level parameter tuning.
+[\[**LE-Nav**\]](https://ieeexplore.ieee.org/document/11430584) is an interpretable and adaptive navigation framework designed for service robots operating in dynamic, human-centric environments. Traditional navigation systems often struggle in such unstructured settings due to fixed parameters and poor generalization. LE-Nav addresses this by combining multi-modal large language models (MLLMs) with conditional variational autoencoders (CVAEs) for zero-shot scene understanding and expert-level parameter tuning.
 
 ![image](fig/overview.jpg)
 
@@ -59,10 +59,14 @@ If you use the same setup, you can try the [\[model parameters\]](https://github
 ## 5. Citation
 If your like our projects, please cite us and give this repo a star.
 ```
-@article{wang2025learning,
-  title={Learning to Tune Like an Expert: Interpretable and Scene-Aware Navigation via MLLM Reasoning and CVAE-Based Adaptation},
+@ARTICLE{lenav,
   author={Wang, Yanbo and Fang, Zipeng and Zhao, Lei and Chen, Weidong},
-  journal={arXiv preprint arXiv:2507.11001},
-  year={2025}
-}
+  journal={IEEE Transactions on Automation Science and Engineering}, 
+  title={Learning to Tune Like an Expert: Interpretable and Scene-Aware Navigation via MLLM Reasoning and CVAE-Based Adaptation}, 
+  year={2026},
+  volume={23},
+  number={},
+  pages={6674-6686},
+  doi={10.1109/TASE.2026.3673004}}
+
 ```
